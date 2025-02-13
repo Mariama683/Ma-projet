@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.register-btn {
+    background-color: #7d2ae8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.subscribe {
+    margin-top: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #7d2ae8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sponsors {
+    margin-top: 20px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sponsors img {
+    height: 30px;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 80%;
+    height: auto;
+
+}
+.features {
+    padding: 50px;
+
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 200px;
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h3 {
+    color: #8a4baf;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/* Section Boost Agencies */
+.boost-agencies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+
+}
+
+.boost-container {
+    display: flex;
+    align-items: center;
+}
+
+.boost-image img {
+    width: 400px;
+}
+
+.boost-text {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.boost-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boost-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.boost-text ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    color: #6C63FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #3c3c3c;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
+}
+/* Conteneur de contenu principal */
+.main {
+    text-align: center;
+    padding: 20px;  
+}
+
+/* Style du sous-titre */
+.subtitle {
+    color: #8a4af3;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Style du titre principal */
+.title {
+    font-size: 2.2rem;
+    color: #3c3c3c;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+/* Style des paragraphes */
+.paragraph {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+}
+/* Style du paragraphe */
+.paragraph {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Section des commentaires */
+.comment-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Style de chaque commentaire */
+.comment {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.comment-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.comment-info h5 {
+    font-size: 1rem;
+    color: #080808dd;
+    font-weight: bold;
+}
+
+.comment-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+/* Conteneur principal du contenu */
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+/* Conteneur du texte */
+.text-link {
+    flex: 1;
+    margin-right: 30px;
+}
+
+/* Style du titre */
+h1 {
+    font-size: 2rem;
+    color: #3c3c3c;
+    margin-bottom: 1.5rem;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* Style du lien "Learn more" */
+.learn-more {
+    font-size: 1.2rem;
+    color: #8a4af3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.learn-more:hover {
+    color: #6a3ecf;
+}
+
+/* Conteneur de l'image */
+.image-link {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style de l'image */
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Conteneur principal */
+.ordinat {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+/* Titre de section */
+.section-title {
+    text-align: center;
+    color: #8a4af3;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Sous-titre */
+.sub-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #3c3c3c;
+    margin-bottom: 30px;
+}
+
+/* Grille des cartes de tutoriels */
+.tutorials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Style pour chaque carte */
+.tutorial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tutorial-content {
+    padding: 15px;
+}
+
+.tutorial-content h4 {
+    font-size: 1.1rem;
+    color: #3c3c3c;
+    margin-bottom: 10px;
+}
+
+.commente {
+    font-size: 0.9rem;
+    color: #8a4af3;
+}
+/* En-tête */
+.header {
+    background-color: #8a4af3;
+    color: white;
+    padding: 60px 20px;
+    border: 30px;
+
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;  /* Espacement entre le texte et le bouton */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Centre le conteneur */
+
+}
+
+.header-content h1 {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #8a4af3;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.cta-button:hover {
+    background-color: #090909;
+    color: white;
+
+}
+
+/* Footer */
+.footer {
+    background-color: #fff;
+    color: #666;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-left p {
+    margin-bottom: 5px;
+}
+
+.footer-right .footer-nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.footer-nav li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #f11fd9;
+}
+
+
+
+
+
+
+
+
+
